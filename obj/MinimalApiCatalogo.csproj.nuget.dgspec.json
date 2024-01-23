@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/felipedomingues/Projetos/DotNet/MinimalApiCatalogo/MinimalApiCatalogo.csproj": {}
+    "/Users/felipedomingues/Projetos/DotNet/MinimalAPICatalogo/MinimalApiCatalogo.csproj": {}
   },
   "projects": {
-    "/Users/felipedomingues/Projetos/DotNet/MinimalApiCatalogo/MinimalApiCatalogo.csproj": {
+    "/Users/felipedomingues/Projetos/DotNet/MinimalAPICatalogo/MinimalApiCatalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/felipedomingues/Projetos/DotNet/MinimalApiCatalogo/MinimalApiCatalogo.csproj",
+        "projectUniqueName": "/Users/felipedomingues/Projetos/DotNet/MinimalAPICatalogo/MinimalApiCatalogo.csproj",
         "projectName": "MinimalApiCatalogo",
-        "projectPath": "/Users/felipedomingues/Projetos/DotNet/MinimalApiCatalogo/MinimalApiCatalogo.csproj",
+        "projectPath": "/Users/felipedomingues/Projetos/DotNet/MinimalAPICatalogo/MinimalApiCatalogo.csproj",
         "packagesPath": "/Users/felipedomingues/.nuget/packages/",
-        "outputPath": "/Users/felipedomingues/Projetos/DotNet/MinimalApiCatalogo/obj/",
+        "outputPath": "/Users/felipedomingues/Projetos/DotNet/MinimalAPICatalogo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/felipedomingues/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.1, )"
