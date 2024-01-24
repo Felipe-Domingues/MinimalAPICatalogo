@@ -24,6 +24,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Entity Framework
 - OpenAPI (Swagger)
 - FluentAPI
+- CORS
+- JWT Auth
 - MySQL
 
 ## 💻 Projeto
